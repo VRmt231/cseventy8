@@ -1,0 +1,27 @@
+<html>
+    <head>
+      <title>
+          My Family Book
+      </title>
+    </head>
+    <body>
+      <h1>My Family</h1>
+       <img src="fam.jpg">
+       <button type = "button" onclick = "changeimg()"> Next </button>
+       
+         
+        <script>
+         var family=["Mom","Dad","Nani","Brother","Sister","Uncle","Aunt"];
+         var images=[<img src="Mom.png"></img>,<img src="dad.jpeg"></img>,<img src="Nani.png"></img>,<img src="Shreyansh.png"></img>,<img src="Stuti.png"></img>,<img src="Mamma.png"></img>,<img src="Mami.png"></img>];
+         var data=["My mom's name is Brinda. She is a housewife as well as a dietition. She loves me more than anything.","My dad's name is Mukesh. He is a doctor in Doha.","My nani's name is Pragna. She is the eldest of our family.","My brother's name is Shreyansh. He loves playing videogames.","My sister's name is stuti. She is a happy girl","My uncle's name is Kunal. He is the owner of Paras Electronics.","My aunt's name is Mousami. She is a dietition."]
+         function changeimg(){
+           if (family==6) { family = 0;}
+           if (images==6) { images = 0;}
+           if (data==6) { data = 0;}
+         };
+         
+         
+
+        </script>
+    </body>
+</html>
